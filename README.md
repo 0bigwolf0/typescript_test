@@ -1,2 +1,2 @@
-# typescript_test
-The typescript of gymnastics
+# tdl-ts
+test driver learn typescript
