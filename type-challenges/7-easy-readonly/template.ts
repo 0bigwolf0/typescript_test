@@ -2,7 +2,9 @@ type MyReadonly<T> = {
   readonly [P in keyof T]: T[P];
 };
 
-
+enum Color {green,blue,red}
+let ColorName = Color[2]
+console.log(ColorName)
 
 // js
 function readonly(obj) {
